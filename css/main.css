@@ -1,0 +1,17 @@
+body{
+    background-color: lightpink;
+}
+
+head{
+    font-weight: lighter;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none;
+}
