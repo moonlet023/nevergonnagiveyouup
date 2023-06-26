@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="page1.css">
+    <head>
+        <title>ぼっち・ざ・ろっく！</title>
+    </head>
+    <body>
+        <center>
+            <h1>
+                結束バンド樂隊
+            </h1>
+        </center>
+
+        <div id="F1">
+            <img src="image/logo.png">
+                <ul>
+                    <li>
+                        <a href="#">成員介紹▼</a>
+                        <div id="sub2">
+                        <ul class="sub1">
+                            <li><a href="#">後藤ひとり</a></li>
+                            <li><a href="#">後藤ひとり</a></li>
+                            <li><a href="#">後藤ひとり</a></li>
+                            <li><a href="#">後藤ひとり</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                </ul>
+            <span>樂曲介紹</span>
+            <span>其他▼</span>
+        </div>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="page1.css">
+    <head>
+        <title>hi</title>
+    </head>
+    <body>
+        <center>
+            <h1>
+                hi
+            </h1>
+        </center>
+
+        <div id="F1">
+            <img src="image/VScode.jpg">
+            <span>111</span>
+            <span>222</span>
+            <span>333</span>
+        </div>
+
+    </body>
+</html>
+
+
+
+.menu .sub{
+  position: absolute;
+  top: 38px;
+}
+
+.menu .sub a:hover{
+  background-color: lightblue;
+}
+
+.menu .sub li{
+  overflow: hidden;
+  height: 0;
+  transition: height 500ms;
+}
+
+.menu li:hover .sub li{
+  height: 40px;
+}
+
+
+
+#F1 ul.sub1{
+  position: absolute;
+  top: 38px;
+}
+
+#F1 ul.sub1 li{
+  overflow: hidden;
+  height: 0px;
+  transition: height 500ms;
+}
+
+#F1 ul.li:hover ul.sub1 li{
+  height: 40px;
+}
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+body {
+  background-color: lightpink;
+}
+
+#F1 {
+  background:  lightyellow;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#F1 img {
+  width: 100px;
+}
+
+#F1 span {
+  font-size: 250%;
+  margin-left: 400px;
+}
+
+#F1 a {
+  font-size: 250%;
+  margin-left: 350px;
+  color: black;
+}
+
+#F1 a:hover{
+  color: black;
+}
+
+#F1 .sub1 a:hover{
+  background-color: white;
+}
+
+#F1 ul{
+  display: inline-block;
+}
+
+#F1 .sub1{
+  position: absolute;
+  top: 38px;
+}
+
+#F1 .sub1 li{
+  overflow: hidden;
+  height: 0px;
+  transition: height 1000ms;
+}
+
+#F1 li:hover .sub1 li{
+  height: 60px;
+}
+
+#F1 .sub1 a{
+  padding: auto;
+}
+
+
+@media only screen and (max-width: 1700px){
+  #F1 img{
+      width: 190px;
+  }
+}
+
+@media only screen and (max-width: 1500px){
+  #F1 img{
+      width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  #F1 img{
+      width: 300px;
+  }
+}
