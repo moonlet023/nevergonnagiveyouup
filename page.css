@@ -70,16 +70,27 @@ body {
   #F1 img{
       width: 190px;
   }
+  #F1 a{
+      font-size: 95%;
+  }
 }
-
 @media only screen and (max-width: 1500px){
   #F1 img{
       width: 200px;
   }
+
+  #F1 a.other{
+    display: none;
+  }
+
 }
 
 @media only screen and (max-width: 1000px){
   #F1 img{
       width: 300px;
+  }
+
+  #F1 a.music{
+    display: none;
   }
 }
