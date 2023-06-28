@@ -1,0 +1,132 @@
+body {
+  background-color: lightpink;
+}
+
+#F1 {
+  background:  lightyellow;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+#F1 img {
+  width: 100px;
+}
+
+#F1 span {
+  font-size: 250%;
+  margin-left: 400px;
+}
+
+#F1 a {
+  display: inline-flex;
+  position: relative;
+  font-size: 250%;
+  margin-left: 350px;
+  color: black;
+}
+
+#F1 a:hover{
+  color: black;
+}
+
+#F1 li{
+  list-style-type: none;
+}
+
+#F1 .sub1 a:hover{
+  background-color: white;
+}
+
+#F1 ul{
+  display: inline-block;
+}
+
+#F1 .sub1{
+  top: 38px;
+}
+
+#F1 .sub1 li{
+  overflow: hidden;
+  height: 0px;
+  transition: height 1000ms;
+}
+
+#F1 li:hover .sub1 li{
+  height: 60px;
+}
+
+#sub2{
+  position: absolute;
+}
+
+#sub2 a{
+
+}
+
+
+@media only screen and (max-width: 1700px){
+  #F1 img{
+      width: 190px;
+  }
+  #F1 a{
+      font-size: 95%;
+  }
+}
+@media only screen and (max-width: 1500px){
+  #F1 img{
+      width: 200px;
+  }
+
+  #F1 a{
+    font-size: 70%;
+  }
+
+  #F1 a.other{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 1000px){
+  #F1 img{
+      width: 300px;
+  }
+
+  #F1 a.music{
+    display: none;
+  }
+}
+
+#chartar-B h2{
+  background-color: plum;
+}
+
+#chartar-B li{
+  list-style-type: none;
+}
+
+#chartar-I h2{
+  background-color: red;
+}
+
+#chartar-I li{
+  list-style-type: none;
+}
+
+#chartar-R h2{
+  background-color: blue;
+}
+
+#chartar-R li{
+  list-style-type: none;
+}
+
+#chartar-N h2{
+  background-color: yellow;
+}
+
+#chartar-N li{
+  list-style-type: none;
+}
